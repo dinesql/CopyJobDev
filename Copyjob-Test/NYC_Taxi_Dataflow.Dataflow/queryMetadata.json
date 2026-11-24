@@ -1,0 +1,42 @@
+{
+  "formatVersion": "202502",
+  "computeEngineSettings": {
+    "allowModernEvaluationEngine": true
+  },
+  "name": "NYC_Taxi_Dataflow",
+  "queryGroups": [],
+  "documentLocale": "en-US",
+  "queriesMetadata": {
+    "Output": {
+      "queryId": "ee5dc479-9682-4af0-bf03-262833b0004a",
+      "queryName": "Output",
+      "loadEnabled": false
+    },
+    "Output_DataDestination": {
+      "queryId": "bd77516a-b4bc-48bf-939b-93e8575c0406",
+      "queryName": "Output_DataDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    },
+    "PUlocationID": {
+      "queryId": "451adb1e-5423-41fe-b6ac-26c1cf2faa24",
+      "queryName": "PUlocationID",
+      "loadEnabled": false
+    },
+    "green_tripdata_2022": {
+      "queryId": "e90aea93-eb13-43dc-b32f-59d38ea51cd4",
+      "queryName": "green_tripdata_2022"
+    },
+    "nyc_taxi_green_discounts": {
+      "queryId": "64aa5960-5a1b-4b3e-852f-d66cc6c10f52",
+      "queryName": "nyc_taxi_green_discounts"
+    }
+  },
+  "connections": [
+    {
+      "path": "Lakehouse",
+      "kind": "Lakehouse",
+      "connectionId": "{\"ClusterId\":\"abcd11c8-e852-4708-8447-a52ced8b064f\",\"DatasourceId\":\"56092b23-3cf6-4846-ae74-732c56c24d15\"}"
+    }
+  ]
+}
